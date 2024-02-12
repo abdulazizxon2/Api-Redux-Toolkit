@@ -1,17 +1,16 @@
 import React from 'react'
 
 export default function Mahsulot() {
-  let getApi1 = () => {
-    fetch("https://dummyjson.com/products")
-      .then((res) => res.json())
-      .then((json) => setApiData(json));
-  };
-  useEffect(() => {
-    getApi1();
-  }, []);
   return (
     <div>
-      <h1>salom</h1>
+      <div className="cards">
+        <img src="./img/vintel.png" alt="" />
+        <div className="card">
+          <b>Vintel</b>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione atque id soluta harum in quia!</p>
+          <b>10$</b>
+        </div>
+      </div>
     </div>
   )
 }
