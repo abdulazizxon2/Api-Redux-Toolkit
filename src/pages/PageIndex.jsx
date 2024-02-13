@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Mahsulot from "./Mahsulot";
-import Skidka from "./Skidka";
+import Skidka from "./Todos";
 import LogIn from "./LogIn";
 
 export default function PageIndex() {
